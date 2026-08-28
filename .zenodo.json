@@ -1,0 +1,17 @@
+{
+  "title": "Uncertainty-Aware AI: Conformal Prediction versus Reinforcement Learning for Optimal Trade Execution",
+  "description": "Reference implementation and reproducibility package for a study of VWAP-benchmarked optimal trade execution. A normalised split-conformal predictor of next-interval returns is used as an explicit gate on execution decisions: the policy acts on the forecast only when its magnitude exceeds kappa times the conformal half-width, and otherwise tracks VWAP. Sweeping kappa traces a monotone cost-risk frontier, reducing the variance of execution cost at almost no cost in the mean, and more reproducibly than a multi-seed PPO agent. Software supplement to the article published in Statistics, Optimization & Information Computing 16(2), 1334-1349 (2026).",
+  "upload_type": "software",
+  "license": "MIT",
+  "access_right": "open",
+  "version": "1.0.0",
+  "creators": [
+    { "name": "Irshad, Asadullah", "affiliation": "Centre of Excellence for Data Science, Artificial Intelligence and Modelling (DAIM), University of Hull, United Kingdom", "orcid": "0009-0005-5068-6404" },
+    { "name": "Biswas, Shaon", "affiliation": "Centre of Excellence for Data Science, Artificial Intelligence and Modelling (DAIM), University of Hull, United Kingdom" }
+  ],
+  "keywords": ["optimal trade execution","VWAP","conformal prediction","uncertainty quantification","reinforcement learning","market microstructure","reproducibility"],
+  "related_identifiers": [
+    { "identifier": "10.19139/soic-2310-5070-4159", "relation": "isSupplementTo", "resource_type": "publication-article", "scheme": "doi" },
+    { "identifier": "https://github.com/Asadullah-Irshad/Conformal-VWAP-Execution", "relation": "isSupplementTo", "scheme": "url" }
+  ]
+}
